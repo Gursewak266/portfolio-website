@@ -1,0 +1,123 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{setspace}
+
+% -----------------------
+% Custom section formatting
+% -----------------------
+\titleformat{\section}{\large\bfseries\uppercase}{\thesection}{1em}{}
+\titlespacing{\section}{0pt}{10pt plus 2pt minus 2pt}{5pt}
+\setlength{\parskip}{2mm}
+\setlength{\parindent}{0pt}
+
+% -----------------------
+% CV Information
+% -----------------------
+\newcommand{\name}{Gursewak Singh}
+\newcommand{\email}{Gursewak.singh@gisma-student.com}
+\newcommand{\github}{https://github.com/Gursewak266}
+\newcommand{\university}{Gisma University of Applied Sciences}
+\newcommand{\department}{Department of Computer and Data Sciences}
+\newcommand{\location}{Germany}
+
+\begin{document}
+
+% -----------------------
+% Header
+% -----------------------
+\begin{center}
+    {\LARGE \textbf{\name}}\\[1mm]
+    \department, \university\\
+    \location \\
+    \faEnvelope\ \email \quad
+    \faPhone\ \phone \quad
+    \faLinkedin\ \href{https://\linkedin}{\linkedin} \quad
+    \faGithub\ \href{https://\github}{\github}
+\end{center}
+
+\vspace{3mm}
+
+% -----------------------
+% Profile / Summary
+% -----------------------
+\section*{Profile}
+Motivated and highly analytical Computer Science student at \university, specializing in Data Science, Machine Learning, and Web Development. Possess strong programming skills in Python, Java, C++, and web technologies. Experienced in designing, developing, and deploying software projects, with a keen interest in applying data-driven solutions to real-world problems. Proactive, detail-oriented, and eager to contribute to innovative software development projects.
+
+% -----------------------
+% Education
+% -----------------------
+\section*{Education}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Gisma University of Applied Sciences, Germany} \hfill 2024 -- Present\\
+    M.Sc. in Computer Science, Department of Computer and Data Sciences\\
+    Relevant coursework: Data Structures and Algorithms, Database Systems, Machine Learning, Software Engineering, Web Development
+    \begin{itemize}[leftmargin=1.5cm]
+    \item Matriculation – 73\%
+    \item Intermediate – 78\%
+    \item Completed Computer Course
+\end{itemize}
+\end{itemize}
+
+% -----------------------
+% Technical Skills
+% -----------------------
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Programming Languages:} Python, Java, C++, JavaScript, SQL
+    \item \textbf{Web Development:} HTML5, CSS3, JavaScript, Bootstrap, Git, GitHub Pages
+    \item \textbf{Data Science \& Machine Learning:} NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow basics
+    \item \textbf{Tools and Software:} LaTeX, VS Code, Jupyter Notebook, Linux, Docker basics
+    \item \textbf{Version Control:} Git, GitHub, GitHub Actions
+\end{itemize}
+
+% -----------------------
+% Projects
+% -----------------------
+\section*{Projects}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Personal Portfolio Website} -- Developed a professional portfolio using HTML, CSS, JavaScript, and GitHub Pages. Showcases projects, skills, and CV. Integrated responsive design for desktop and mobile.
+    \item \textbf{Data Analysis of E-commerce Dataset} -- Collected and analyzed a dataset of 10,000 transactions. Performed data cleaning, visualization, and derived insights on customer behavior using Python and Pandas.
+    \item \textbf{Predictive Machine Learning Model} -- Built a regression model to predict housing prices using Scikit-learn. Applied feature engineering, trained multiple models, and evaluated using RMSE and R\textsuperscript{2} score.
+    \item \textbf{Inventory Management System} -- Designed a Java-based console application to manage inventory transactions, track stock levels, and generate reports.
+    \item \textbf{Simple Web Application} -- Created a responsive CRUD web application using HTML, CSS, JavaScript, and Firebase for storing user data.
+\end{itemize}
+
+
+% -----------------------
+% Certifications
+% -----------------------
+\section*{Certifications}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Python Programming Certificate -- Coursera
+    \item Introduction to Machine Learning -- Udemy
+    \item Web Development Bootcamp -- freeCodeCamp
+\end{itemize}
+
+% -----------------------
+% Achievements
+% -----------------------
+\section*{Achievements}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Awarded 'Best Mini Project' in Data Analysis at university coding competition
+    \item Ranked in top 10\% of students in Data Structures and Algorithms course
+    \item Participated in Hackathon 2024 and developed a real-time web application within 24 hours
+\end{itemize}
+
+% -----------------------
+% Interests
+% -----------------------
+\section*{Interests}
+Web Development, Machine Learning, Open Source Contributions, Data Analysis, Competitive Programming
+
+% -----------------------
+% References
+% -----------------------
+\section*{References}
+Available upon request
+
+\end{document}
